@@ -57,6 +57,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import "./Navbar.css";
+import * from 'public';
 
 function ColorSchemesExample() {
   return (
@@ -67,7 +68,7 @@ function ColorSchemesExample() {
            
            <img
             className="nav__logo"
-            src="./netflix-logo.png"
+            src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
             alt="Netflix Logo"
           />
            <img
