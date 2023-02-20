@@ -9,11 +9,14 @@
   height: 190px;
 }
 .banner__title {
+  display: inline;
   font-size: 3rem;
   font-weight: 800;
   padding-bottom: 0.3rem;
-  position: fixed;
-  left: 90px;
+  position: absolute;
+  left: 77px;
+  top:100px;
+  
 }
 .banner__description {
   width: 45rem;
@@ -23,9 +26,9 @@
   max-width: 360px;
   height: 80px;
   text-align: left;
-  position:fixed;
-  top: 250px;
-  left: 90px;
+  position:relative;
+  top: 90px;
+  left: 50px;
 }
 .banner__button {
   cursor: pointer;
@@ -40,9 +43,10 @@
   padding-top: 0.5rem;
   background-color: rgba(51, 51, 51, 0.5);
   padding-bottom: 0.5rem;
-  position: fixed;
-  left: 90px;
-  top: 240px;
+  position: relative;
+  left: 50px;
+  bottom: 50px;
+
 }
 .banner__button:hover,.banner__button2:hover {
   color: #000;
@@ -74,7 +78,7 @@
   padding-top: 0.5rem;
   background-color: rgba(51, 51, 51, 0.5);
   padding-bottom: 0.5rem;
-  position: fixed;
-  left: 200px;
-  top: 240px;
+  position: relative;
+  left: 50px;
+  bottom: 50px;
 }

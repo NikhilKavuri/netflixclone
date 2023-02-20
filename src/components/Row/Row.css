@@ -1,11 +1,23 @@
+
 .row {
-  margin-left: 10px;
-  color: white;
+  color: rgb(255, 255, 255);
+}
+.row::before {
+  content: "";
+  position: absolute;
+  top: 400px;
+  left: 0;
+  width: 100%;
+  height: 100px; 
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
 }
 .row h2 {
   margin-left: 15px;
+
+
 }
 .row__posters {
+  background-color: black;
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;

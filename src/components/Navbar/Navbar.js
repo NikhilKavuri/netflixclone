@@ -57,23 +57,23 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import "./Navbar.css";
-import * from 'public';
-
+import logo from "../../images/netflix-logo.png";
+import avatar from "../../images/Netflix-avatar.png";
 function ColorSchemesExample() {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar  bg="dark" variant="dark" fixed="top">
         <Container>
           <Nav className="me-auto">
            
            <img
             className="nav__logo"
-            src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+            src={logo}
             alt="Netflix Logo"
           />
            <img
             className="nav__avatar"
-            src="./Netflix-avatar.png"
+            src={avatar}
             alt="Netflix Logo"
           />
          
